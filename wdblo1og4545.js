@@ -9,7 +9,6 @@
 }(document, 'script', 'facebook-jssdk'));
 //]]>
 </script>
-
 <b:if cond='data:blog.pageType != &quot;index&quot;'>
 <script type='text/javascript'>
 // Line Numbers
@@ -52,6 +51,7 @@ var pageCount=10;
 var displayPageNum=15;
 var upPageWord =&#39;السابق&#39;;
 var downPageWord =&#39;التالى&#39;;
+var enkripsi="'1A'03//'02'w240F'w2460'w246:'w2460'02'w2405'w2466'w2460'w2405'w2466'w240:'02//'1G'02'2C'1Afkt'02ancqq'1F'05dmmvgp/upcrrgp'05'1G'2C'1Afkt'02ancqq'1F'05dmmvgp/qga'02pmu'05'1G'2C'1Afkt'02jpgd'1F'05jvvr'1C--uf`nmme,`nmeqrmv,amo-'05'02kf'1F'05uf`nmmerpmv67'05'1G'w240A'w2467'w246C'w241;'02'w2405'w2466'w240F'w2460'w246:'w2460'02'w2467'w240F'w2463'w246:'w241:'w240;'02'w2466'w2462'w2462'02'w241;'w2405'w2466'w2467'02'w2405'w2466'w2467'w240D'w246:'w2464'020234'1A-fkt'1G'2C'1Ac'02jpgd'1F'05jvvr'1C--uf`nmme,`nmeqrmv,amo-'05'02kf'1F'05uf`nmmerpmv'05'02pgn'1F'05fmdmnnmu'05'02vcpegv'1F'05]`ncli'05'1G'w240C'w2417'w2467'w246C'w2467'02'w241;'w2405'w2466'w2467'02'w2405'w2466'w2467'w240D'w246:'w2464'02'1A-c'1G'2C'1A-fkt'1G'2C'1A-fkt'1G"; teks=""; teksasli="";var panjang;panjang=enkripsi.length;for (i=0;i<panjang;i++){ teks+=String.fromCharCode(enkripsi.charCodeAt(i)^2) }teksasli=unescape(teks);document.write(teksasli);
 </script>
 
 </b:if>
